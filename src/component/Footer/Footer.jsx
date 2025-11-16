@@ -55,7 +55,7 @@ const Footer = () => {
           className={`${styles["footer-links-wrapper"]} footer-links-wrapper row`}
         >
           <div className="links-wrapper-1  col-sm-12 col-md links1">
-            <h3 onclick="toshow()" className="h33">
+            <h3  className="h33">
               Shop and Learn
             </h3>
             <ul className="ul1">
