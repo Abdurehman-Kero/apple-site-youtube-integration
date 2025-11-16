@@ -1,0 +1,53 @@
+/* Header Style from general CSS - now modular */
+.nav-wrapper {
+  background: rgba(0,0,0,0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-wrapper ul li a {
+  color: #fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Add justify-content space-between for navigation */
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-justified {
+  justify-content: space-between !important;
+}
+
+.nav-fill {
+  flex: 1 1 auto;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  
+  /* Ensure proper spacing on desktop */
+  .navbar-nav {
+    justify-content: space-between;
+  }
+}

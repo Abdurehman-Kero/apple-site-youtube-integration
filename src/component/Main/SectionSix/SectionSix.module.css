@@ -1,0 +1,132 @@
+/* Sixth Section */
+.sixth-heghlight-wrapper {
+    width: 100%;
+}
+
+.sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../../../assets/images/home/spyder.jpg");
+    background-color: #000;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+}
+
+.sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../../../assets/images/home/apple-card-monthly.jpg");
+    background-color: #fbfbfd;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+}
+
+.left-side-container, .right-side-container {
+    min-height: 515px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-wrapper, .right-side-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.top-logo-wrapper {
+    padding: 20px 0;
+}
+
+.logo-wrapper {
+    display: inline-block;
+}
+
+.title-wraper {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+    margin: 10px 0;
+}
+
+.description-wraper {
+    font-size: 26px;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.description-wraper.white {
+    color: white;
+}
+
+.links-wrapper {
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+.links-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-wrapper ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.links-wrapper ul li a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.links-wrapper ul li a:hover {
+    color: #000;
+}
+
+.links-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+
+.sixth-heghlight-wrapper .links-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.sixth-heghlight-wrapper .description-wraper {
+    max-width: 250px;
+    margin: 7px auto;
+}
+
+.right-side-wrapper .title-wraper {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+    .sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+        margin: 5px 5px 10px 10px;
+    }
+
+    .sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+        margin: 5px 10px 10px 5px;
+    }
+
+    .sixth-heghlight-wrapper .links-wrapper {
+        max-width: 500px;
+    }
+    
+    .title-wraper {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,109 @@
+/* Alert Section */
+.alert-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.alert-title {
+    font-weight: 600;
+    color: #1d1d1f;
+    padding: 10px;
+}
+
+.alert-text {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* First Section */
+.first-hightlight-wrapper {
+    background-image: url("../../../assets/images/home/ipodPronew-sm.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.new-alert {
+    color: #BF4801;
+    font-size: 18px;
+}
+
+.title-wraper {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+
+.title-wraper.bold {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+
+.links-wrapper {
+    padding: 15px 0;
+}
+
+.links-wrapper ul {
+    list-style: none;
+}
+
+.links-wrapper ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.links-wrapper ul li a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.links-wrapper ul li a:hover {
+    color: #000;
+}
+
+.links-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+
+.ipod-caption {
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    padding-top: 310px;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+    .alert-text {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .first-hightlight-wrapper {
+        background-image: url("../../../assets/images/home/ipodPronew.jpg");
+        min-height: 692px;
+    }
+
+    .title-wraper.bold {
+        font-size: 56px;
+    }
+
+    .ipod-caption {
+        padding-top: 415px;
+    }
+}
