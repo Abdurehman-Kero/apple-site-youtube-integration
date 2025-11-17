@@ -16,7 +16,7 @@ const Main = () => {
     <SectionFourth/>
     <SectionFifth/>
     <SectionSix/>
-    {/* <YoutubeVideos/> */}
+    <YoutubeVideos/>
      </>
   )
 }
