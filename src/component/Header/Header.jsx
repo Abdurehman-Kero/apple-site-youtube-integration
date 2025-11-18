@@ -32,7 +32,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li className={styles["nav-item"]}>
-                  <a className="nav-link js-scroll-trigger" href="#">
+                  <a className="nav-link js-scroll-trigger" href="/iphone">
                     iphone
                   </a>
                 </li>
